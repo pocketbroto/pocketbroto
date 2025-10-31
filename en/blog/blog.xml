@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="/en/feed/blog.css"?>
+
+<channel xmlns:xlink="http://www.w3.org/1999/xlink">
+  
+    <!--
+    
+    <item>
+      <title></title>
+      <link>https://pocketbroto.com</link>
+      <pubDate></pubDate>
+      <type></type>
+      <description> <p></p>
+                    <p></p>
+      </description>
+    </item>
+    
+    -->
+  
+    <!--
+    
+    <item>
+      <title></title>
+      <link>https://pocketbroto.com</link>
+      <pubDate></pubDate>
+      <type></type>
+      <description> <p>I seriously need to stop updating the devlog in the middle of the day when I think "welp I won't work on it anymore" lmao</p>
+                    <p>I can't update twice or else the damn RSS breaks</p>
+      </description>
+    </item>
+    
+    -->
+    
+    
+</channel>

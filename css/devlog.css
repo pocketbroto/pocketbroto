@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    src: url('../media/oswald-v53-latin-regular.woff2') format('woff2'); 
+}
+@font-face {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    src: url('../media/roboto-condensed-v27-latin-regular.woff2') format('woff2')
+}
+
+item {
+  display:block;
+}
+  
+title {
+    font-family: "Oswald";
+    color: ghostwhite;
+	font-size: 0.9em;
+}
+
+description {
+    font-family: "Roboto Condensed";
+    color: ghostwhite;
+    white-space: pre-line;
+}
+
+subtitle {
+    font-family: "Oswald";
+    color: ghostwhite;
+}
+
+link{
+    display:none;
+}
+
+pubDate {
+    display:none;
+}
+
+p {margin-left: 24px}
+
+h1, h2, h3, h4 {font-family: 'Oswald', Garamond, serif; }
+
+h1 {font-size:1.5em}
+h2 {font-size: 1.2em; margin-left:12px}

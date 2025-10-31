@@ -1,0 +1,105 @@
+/* oswald-200 - latin */
+@font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 200;
+    src: url('../media/oswald-v53-latin-regular.woff2') format('woff2'); 
+}
+  
+/*btw if you're trying to self host your fonts, the src: url line will give you a warning but it can be ignored! It works just fine, the syntax is just a bit stupid */
+  
+/* roboto-condensed-regular - latin */
+@font-face {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../media/roboto-condensed-v27-latin-regular.woff2') format('woff2')
+}
+
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    color: ghostwhite;
+    background-image: url("../media/bg.png");
+    background-size: auto;
+    font-family: "Roboto Condensed";
+	max-width:600px;
+    display: table-cell;
+    vertical-align: middle;
+}
+  
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+  
+.box {  
+  padding: 8px;
+  background: #608043;
+  border: 4px outset #7EA35A;
+  box-sizing: border-box;
+  margin-top: 10px;
+}
+  
+.box:first-of-type {
+    margin-top:0px
+}
+    
+.button {
+    background: #F39C11;
+    color: ghostwhite;
+    border: 4px outset #fbc66a;
+    cursor: pointer;
+    font-size: 12px;
+}
+    
+.button:hover {
+    transform: scale(0.99, 0.97)
+}
+
+img {
+    max-width: 100%;
+}
+  
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Oswald";
+    margin:4px auto 4px auto;
+}
+  
+p {
+    font-family: "Roboto Condensed";
+    font-size:20px;
+    margin:8px;
+}
+
+.small {
+  font-size:14px;
+}
+  
+a, a:link, a:visited, a:hover, a:active {
+    color: ghostwhite;
+    text-decoration:none;
+}
+
+  .container {
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    gap: 8px 8px;
+    margin:16px 0 10px 0;
+    max-width:600px;
+  } 
+  
+  
+@media (max-width: 600px) {
+.container {
+    grid-template-columns: repeat(1,1fr);
+  }
+}
