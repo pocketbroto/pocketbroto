@@ -1,0 +1,64 @@
+
+/* H-CARD */
+    .hcard dd:before{
+        content: '> ';
+    }
+    
+    .hcard dt {
+        font-size: 3.6em;
+    }
+
+    .hcard dd {
+        font-size: 2.2em;
+    }
+
+    dt, figcaption {
+        font-size: 1.8rem;
+    }
+
+footer, footer .window-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.index-wrapper {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+}
+
+.index-wrapper-box-1 {
+    width: 100%;
+}
+
+.index-wrapper-box-2 {
+    width: 100%;
+}
+
+@media screen and (max-width: 850px) {
+
+.index-wrapper {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+}
+
+.index-wrapper-box-1 {
+    width: 50%;
+    order: 2;
+    align-self: flex-end;
+}
+
+.index-wrapper-box-2 {
+    width: 50%;
+    order: 1;
+}
+
+.hcard dd {
+    margin: 0px;
+}
+}
