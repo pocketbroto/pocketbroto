@@ -14,12 +14,12 @@
 
     @font-face {
         font-family: 'Enhance';
-        src: url('_media/fonts/Enhance.ttf');
+        src: url('media/fonts/Enhance.ttf');
     }
 
     @font-face {
         font-family: 'tiny';
-        src: url('_media/fonts/TinyUnicode.ttf');
+        src: url('media/fonts/TinyUnicode.ttf');
         ascent-override: 50%;
     }
 
